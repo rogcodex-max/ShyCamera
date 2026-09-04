@@ -165,7 +165,9 @@ For Hardware:
 
 ### Project Demo
 # Video
+https://drive.google.com/file/d/1iXMTsabfAD5nNMfuqLWIfWlo3_XFWRA1/view?usp=drivesdk
 https://drive.google.com/file/d/11yAdfL2B2YFCul0i02izrjBOW6QlFCgC/view?usp=drivesdk
+
 
 # Additional Demos
 https://rogcodex-max.github.io/shycam/
