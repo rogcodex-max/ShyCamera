@@ -51,8 +51,7 @@ For Software:
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/1-aLPjWxEw3kd7SGpadFjcY3M6MXnAzvh/view?usp=drivesdk
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -79,11 +78,10 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/11yAdfL2B2YFCul0i02izrjBOW6QlFCgC/view?usp=drivesdk
 
 # Additional Demos
-
+https://rogcodex-max.github.io/shycam/
 
 ## Team Contributions
 Singly done 
