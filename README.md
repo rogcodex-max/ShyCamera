@@ -52,8 +52,97 @@ https://drive.google.com/file/d/1-aLPjWxEw3kd7SGpadFjcY3M6MXnAzvh/view?usp=drive
 https://drive.google.com/file/d/1-aLPjWxEw3kd7SGpadFjcY3M6MXnAzvh/view?usp=drivesdk
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+                    ┌─────────────────────┐
+                    │     OPEN WEBSITE    │
+                    └──────────┬──────────┘
+                               ↓
+                    ┌─────────────────────┐
+                    │   Camera Permission │
+                    │      Requested      │
+                    └──────────┬──────────┘
+                               ↓
+                  ┌─────────────────────────┐
+                  │      START CAMERA       │
+                  └────────────┬────────────┘
+                               ↓
+                  ┌─────────────────────────┐
+                  │    Webcam Feed Starts   │
+                  └────────────┬────────────┘
+                               ↓
+                  ┌─────────────────────────┐
+                  │   MediaPipe Face Mesh   │
+                  │   Detects Face/Landmarks│
+                  └────────────┬────────────┘
+                               ↓
+                    ┌────────────────────┐
+                    │   Is face detected?│
+                    └───────┬───────┬────┘
+                            │NO     │YES
+                            ↓       ↓
+                     Keep waiting  Analyze
+                                   orientation
+                                      ↓
+                          ┌────────────────────┐
+                          │ Looking at camera? │
+                          └───────┬───────┬────┘
+                                  │NO     │YES
+                                  ↓       ↓
+                         ┌────────────┐  ┌──────────────┐
+                         │ WEBCAM     │  │ 😳 PANIC!    │
+                         │ RELAXES    │  └──────┬───────┘
+                         └─────┬──────┘         ↓
+                               │       ┌──────────────────┐
+                               │       │ Increase Scare   │
+                               │       │ Counter +1       │
+                               │       └────────┬─────────┘
+                               │                ↓
+                               │       ┌──────────────────┐
+                               │       │ Increase Anxiety │
+                               │       └────────┬─────────┘
+                               │                ↓
+                               │       ┌──────────────────┐
+                               │       │ Play Panic Sound │
+                               │       └────────┬─────────┘
+                               │                ↓
+                               │       ┌──────────────────┐
+                               │       │ CLOSE SHUTTERS   │
+                               │       │ Hide Webcam Feed │
+                               │       └────────┬─────────┘
+                               │                ↓
+                               │       ┌──────────────────┐
+                               │       │ Malayalam Panic  │
+                               │       │ Dialogue         │
+                               │       └────────┬─────────┘
+                               │                ↓
+                               │       ┌──────────────────┐
+                               │       │ Webcam Peeks 👀  │
+                               │       └────────┬─────────┘
+                               │                ↓
+                               └────────────┐   │
+                                            ↓   ↓
+                                  ┌─────────────────────┐
+                                  │ Did user look away? │
+                                  └──────────┬──────┬────┘
+                                             │NO   │YES
+                                             ↓     ↓
+                                       Stay hidden  ↓
+                                                   ↓
+                                      ┌────────────────────┐
+                                      │ Reduce Anxiety     │
+                                      │ Remove Panic Mode  │
+                                      └─────────┬──────────┘
+                                                ↓
+                                      ┌────────────────────┐
+                                      │ Slowly reveal      │
+                                      │ webcam again       │
+                                      └─────────┬──────────┘
+                                                ↓
+                                      ┌────────────────────┐
+                                      │ Wait for next      │
+                                      │ eye contact 😈     │
+                                      └─────────┬──────────┘
+                                                │
+                                                └──────→ LOOP
 
 For Hardware:
 
