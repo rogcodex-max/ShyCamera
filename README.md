@@ -2,47 +2,44 @@
 
 
 
-# [Project Name] 🎯
+# SHYCAM
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: None
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Kailasnath RS - CEK
 
 ### Project Description
-[2-3 lines about what your project does]
+This shows the shyness of a camera to face people with eye contact
+when camera starts when no one is noticing and shuts when eye contact is made
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[introvertism, it makes people make eye contacts and make confidence 
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+By seeing this makes an introvert confidence boost
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- HTML, CSS, JAVASCRIPT 
 - [Frameworks used]
 - [Libraries used]
-- [Tools used]
+- Github
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- A single Computer 
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+Click on the website link
 
 # Run
-[commands]
+Activates when link is clicked
 
 ### Project Documentation
 For Software:
@@ -86,12 +83,10 @@ For Hardware:
 *Explain what the video demonstrates*
 
 # Additional Demos
-[Add any extra demo materials/links]
+
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+Singly done 
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
