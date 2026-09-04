@@ -45,12 +45,10 @@ Activates when link is clicked
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
+https://drive.google.com/file/d/1-aLPjWxEw3kd7SGpadFjcY3M6MXnAzvh/view?usp=drivesdk
+https://drive.google.com/file/d/1-aLPjWxEw3kd7SGpadFjcY3M6MXnAzvh/view?usp=drivesdk
 https://drive.google.com/file/d/1-aLPjWxEw3kd7SGpadFjcY3M6MXnAzvh/view?usp=drivesdk
 
 # Diagrams
